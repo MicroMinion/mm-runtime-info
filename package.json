@@ -1,6 +1,6 @@
 {
   "name": "mm-runtime-info",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Host information, for customizing mm services to comply with runtime constraints",
   "main": "index.js",
   "browser": "browser.js",

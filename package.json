@@ -1,0 +1,35 @@
+{
+  "name": "mm-runtime-info",
+  "version": "0.0.1",
+  "description": "Host information, for customizing mm services to comply with runtime constraints",
+  "main": "index.js",
+  "browser": "browser.js",
+  "keywords": [
+    "runtime",
+    "info",
+    "microminion"
+  ],
+  "author": {
+    "name": "Nico Janssens",
+    "email": "nico.b.janssens@gmail.com"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "dependencies": {
+    "mobile-detect": "^1.3.3",
+  },
+  "devDependencies": {
+    "publish": "^0.6.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/microminion/mm-runtime-info.git"
+  },
+  "scripts": {
+    "check-updates": "npm-check",
+    "test": "echo",
+    "2npm": "publish"
+  }
+}
